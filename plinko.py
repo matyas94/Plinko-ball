@@ -3,7 +3,8 @@ import random
 import time
 egyenleg = 100
 jatek = input("Mit szeretnél játszan? (plinko)\n")
-while jatek == "plinko" or ujra == "y":
+ujra = "y"
+while jatek == "plinko" and ujra == "y":
     e_1 = "."
 
     k_1 = "."
@@ -23,12 +24,27 @@ while jatek == "plinko" or ujra == "y":
     o_3 = "."
     o_4 = "."
     o_5 = "."
+
+    ha_1 = "."
+    ha_2 = "."
+    ha_3 = "."
+    ha_4 = "."
+    ha_5 = "."
+    ha_6 = "."
+
+    he_1 = "."
+    he_2 = "."
+    he_3 = "."
+    he_4 = "."
+    he_5 = "."
+    he_6 = "."
+    he_7 = "."
     os.system('cls')
 
 
     print(f"Egyenleg: {egyenleg}\n")
 
-    print(f"    {e_1}\n   {k_1} {k_2}\n  {h_1} {h_2} {h_3}\n {n_1} {n_2} {n_3} {n_4}\n{o_1} {o_2} {o_3} {o_4} {o_5}\n3 2 1 2 3")
+    print(f"      {e_1}\n     {k_1} {k_2}\n    {h_1} {h_2} {h_3}\n   {n_1} {n_2} {n_3} {n_4}\n  {o_1} {o_2} {o_3} {o_4} {o_5}\n {ha_1} {ha_2} {ha_3} {ha_4} {ha_5} {ha_6}\n{he_1} {he_2} {he_3} {he_4} {he_5} {he_6} {he_7}\n3 2 1 0 1 2 3")
 
     rakas = int(input("\nMennyit szeretnél rakni? "))
 
@@ -41,7 +57,7 @@ while jatek == "plinko" or ujra == "y":
     os.system('cls')
     e_1 = "O"
     print(f"Egyenleg: {egyenleg}\n")
-    print(f"    {e_1}\n   {k_1} {k_2}\n  {h_1} {h_2} {h_3}\n {n_1} {n_2} {n_3} {n_4}\n{o_1} {o_2} {o_3} {o_4} {o_5}\n3 2 1 2 3")
+    print(f"      {e_1}\n     {k_1} {k_2}\n    {h_1} {h_2} {h_3}\n   {n_1} {n_2} {n_3} {n_4}\n  {o_1} {o_2} {o_3} {o_4} {o_5}\n {ha_1} {ha_2} {ha_3} {ha_4} {ha_5} {ha_6}\n{he_1} {he_2} {he_3} {he_4} {he_5} {he_6} {he_7}\n3 2 1 0 1 2 3")
     time.sleep(1)
 
     if random.randint(1,2) == 1:
@@ -52,7 +68,7 @@ while jatek == "plinko" or ujra == "y":
     os.system('cls')
     e_1 = "."
     print(f"Egyenleg: {egyenleg}\n")
-    print(f"    {e_1}\n   {k_1} {k_2}\n  {h_1} {h_2} {h_3}\n {n_1} {n_2} {n_3} {n_4}\n{o_1} {o_2} {o_3} {o_4} {o_5}\n3 2 1 2 3")
+    print(f"      {e_1}\n     {k_1} {k_2}\n    {h_1} {h_2} {h_3}\n   {n_1} {n_2} {n_3} {n_4}\n  {o_1} {o_2} {o_3} {o_4} {o_5}\n {ha_1} {ha_2} {ha_3} {ha_4} {ha_5} {ha_6}\n{he_1} {he_2} {he_3} {he_4} {he_5} {he_6} {he_7}\n3 2 1 0 1 2 3")
     time.sleep(1)
 
     if k_1 == "O":
@@ -70,7 +86,7 @@ while jatek == "plinko" or ujra == "y":
     k_1 = "."
     k_2 = "."
     print(f"Egyenleg: {egyenleg}\n")
-    print(f"    {e_1}\n   {k_1} {k_2}\n  {h_1} {h_2} {h_3}\n {n_1} {n_2} {n_3} {n_4}\n{o_1} {o_2} {o_3} {o_4} {o_5}\n3 2 1 2 3")
+    print(f"      {e_1}\n     {k_1} {k_2}\n    {h_1} {h_2} {h_3}\n   {n_1} {n_2} {n_3} {n_4}\n  {o_1} {o_2} {o_3} {o_4} {o_5}\n {ha_1} {ha_2} {ha_3} {ha_4} {ha_5} {ha_6}\n{he_1} {he_2} {he_3} {he_4} {he_5} {he_6} {he_7}\n3 2 1 0 1 2 3")
     time.sleep(1)
 
     if h_1 == "O":
@@ -94,7 +110,7 @@ while jatek == "plinko" or ujra == "y":
     h_2 = "."
     h_3 = "."
     print(f"Egyenleg: {egyenleg}\n")
-    print(f"    {e_1}\n   {k_1} {k_2}\n  {h_1} {h_2} {h_3}\n {n_1} {n_2} {n_3} {n_4}\n{o_1} {o_2} {o_3} {o_4} {o_5}\n3 2 1 2 3")
+    print(f"      {e_1}\n     {k_1} {k_2}\n    {h_1} {h_2} {h_3}\n   {n_1} {n_2} {n_3} {n_4}\n  {o_1} {o_2} {o_3} {o_4} {o_5}\n {ha_1} {ha_2} {ha_3} {ha_4} {ha_5} {ha_6}\n{he_1} {he_2} {he_3} {he_4} {he_5} {he_6} {he_7}\n3 2 1 0 1 2 3")
     time.sleep(1)
 
     if n_1 == "O":
@@ -124,14 +140,96 @@ while jatek == "plinko" or ujra == "y":
     n_3 = "."
     n_4 = "."
     print(f"Egyenleg: {egyenleg}\n")
-    print(f"    {e_1}\n   {k_1} {k_2}\n  {h_1} {h_2} {h_3}\n {n_1} {n_2} {n_3} {n_4}\n{o_1} {o_2} {o_3} {o_4} {o_5}\n3 2 1 2 3")
+    print(f"      {e_1}\n     {k_1} {k_2}\n    {h_1} {h_2} {h_3}\n   {n_1} {n_2} {n_3} {n_4}\n  {o_1} {o_2} {o_3} {o_4} {o_5}\n {ha_1} {ha_2} {ha_3} {ha_4} {ha_5} {ha_6}\n{he_1} {he_2} {he_3} {he_4} {he_5} {he_6} {he_7}\n3 2 1 0 1 2 3")
     time.sleep(1)
 
-    if o_1 == "O" or o_5 == "O":
-        egyenleg += (rakas*3)
-    elif o_2 == "O" or o_4 == "O":
-        egyenleg += (rakas*2)
+    if o_1 == "O":
+        if random.randint(1,2) == 1:
+            ha_1 = "O"
+        else:
+            ha_2 = "O"
+    elif o_2 == "O":
+        if random.randint(1,2) == 1:
+            ha_2 = "O"
+        else:
+            ha_3 = "O"
+    elif o_3 == "O":
+        if random.randint(1,2) == 1:
+            ha_3 = "O"
+        else:
+            ha_4 = "O"
+    elif o_4 == "O":
+        if random.randint(1,2) == 1:
+            ha_4 = "O"
+        else:
+            ha_5 = "O"
     else:
-        egyenleg += (rakas*1) 
-    
-    ujra = input("Szeretnél még játszani?(y/n)\n")
+        if random.randint(1,2) == 1:
+            ha_5 = "O"
+        else:
+            ha_6 = "O"
+
+    os.system('cls')
+    o_1 = "."
+    o_2 = "."
+    o_3 = "."
+    o_4 = "."
+    o_5 = "."
+    print(f"Egyenleg: {egyenleg}\n")
+    print(f"      {e_1}\n     {k_1} {k_2}\n    {h_1} {h_2} {h_3}\n   {n_1} {n_2} {n_3} {n_4}\n  {o_1} {o_2} {o_3} {o_4} {o_5}\n {ha_1} {ha_2} {ha_3} {ha_4} {ha_5} {ha_6}\n{he_1} {he_2} {he_3} {he_4} {he_5} {he_6} {he_7}\n3 2 1 0 1 2 3")
+    time.sleep(1)
+
+    if ha_1 == "O":
+        if random.randint(1,2) == 1:
+            he_1 = "O"
+        else:
+            he_2 = "O"
+    elif ha_2 == "O":
+        if random.randint(1,2) == 1:
+            he_2 = "O"
+        else:
+            he_3 = "O"
+    elif ha_3 == "O":
+        if random.randint(1,2) == 1:
+            he_3 = "O"
+        else:
+            he_4 = "O"
+    elif ha_4 == "O":
+        if random.randint(1,2) == 1:
+            he_4 = "O"
+        else:
+            he_5 = "O"
+    elif ha_4 == "O":
+        if random.randint(1,2) == 1:
+            he_5 = "O"
+        else:
+            he_6 = "O"
+    else:
+        if random.randint(1,2) == 1:
+            he_6 = "O"
+        else:
+            he_7 = "O"
+
+    time.sleep(0.5)
+
+    if he_1 == "O" or he_7 == "O":
+        egyenleg += (rakas*3)
+    elif he_2 == "O" or he_6 == "O":
+        egyenleg += (rakas*2)
+    elif he_3 == "O" or he_5 == "O":
+        egyenleg += (rakas*1)
+    else:
+        egyenleg += (rakas*0) 
+
+    os.system('cls')
+    ha_1 = "."
+    ha_2 = "."
+    ha_3 = "."
+    ha_4 = "."
+    ha_5 = "."
+    ha_6 = "."
+    print(f"Egyenleg: {egyenleg}\n")
+    print(f"      {e_1}\n     {k_1} {k_2}\n    {h_1} {h_2} {h_3}\n   {n_1} {n_2} {n_3} {n_4}\n  {o_1} {o_2} {o_3} {o_4} {o_5}\n {ha_1} {ha_2} {ha_3} {ha_4} {ha_5} {ha_6}\n{he_1} {he_2} {he_3} {he_4} {he_5} {he_6} {he_7}\n3 2 1 0 1 2 3")
+    time.sleep(1)
+
+    ujra = input("\nSzeretnél még játszani?(y/n)\n")
